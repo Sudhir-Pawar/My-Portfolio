@@ -1,0 +1,88 @@
+body{
+    font-family:'Montserrat';
+    margin: 0px;
+}
+/* Navigation bar */
+
+.nav-cus .nav-item{
+   margin: 0 20px;
+    font-size: 1.2rem;
+}
+.paddi{
+    padding: 0 10%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    color: white;
+    font-size: 2.5rem;
+}
+#head{
+    background-color: #4d80e4;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.col-lg-7{
+    text-align: left;
+    background-color: #4d80e4;
+    padding:10% 20% 15% 7%;
+}
+.about-frame{
+    position: absolute;
+    transform: rotate(25deg);
+    width: 63%;
+    left: 120px;
+    top: 0px;
+    z-index: -1;
+}
+.heading, .name{
+    font-weight: 800;
+    margin-left: 90px;
+}
+.heading{
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;
+
+}
+.name{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* About ME */
+#about-me, #education{
+    color: #46b3e6;
+    text-align: center;
+    background-color: #fff;
+    padding: 8rem 4rem 2rem 4rem;
+}
+#education{
+    padding-top: 2rem;
+}
+.about-title{
+    font-weight: 500;
+    display: inline-block;
+    padding-bottom: 0rem;
+}
+.about-para{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 2% 12%;
+}
+.about-me-mt{
+    position: relative;
+}
+.about-me-img{
+    width: 3.8%;
+    position: absolute;
+    left: 470px;
+    /* position: absolute; */
+    /* left: 32rem; */
+    /* top: 41.6rem; */
+}
+.edu-clg{
+    padding-top: 20px;
+}
