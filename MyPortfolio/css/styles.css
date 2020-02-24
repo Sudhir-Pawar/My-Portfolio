@@ -36,6 +36,10 @@ body{
     top: 0px;
     z-index: -1;
 }
+.adjust.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .heading, .name{
     font-weight: 800;
     margin-left: 90px;
@@ -85,4 +89,84 @@ body{
 }
 .edu-clg{
     padding-top: 20px;
+}
+
+/* Technical Skill */
+
+.fab{
+    width: 20%;
+    height: 20%;
+}
+.fa-html5{
+    
+    color: orangered;
+}
+.fa-java{
+    color: red;
+}
+.fa-css3-alt{
+    color: #142850;
+}
+.fa-bootstrap{
+    color: purple;
+}
+.fa-js-square{
+    color:#fcd303;
+}
+.skill-img{
+    width: 7rem;
+    height: 7rem;
+    
+}
+.skill-img-md{
+    width: 7rem;
+    height: 6rem;
+}
+.col-lg-3{
+    text-align: center;
+}
+#skill{
+    background-color: #4d80e4;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+}
+.skill-head{
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.skill-subhead{
+    margin-bottom: 10px;
+}
+#projects{
+    color: #46b3e6;
+    text-align: center;
+    background-color: #fff;
+    padding: 8rem 4rem 2rem 4rem;
+}
+.pr-head{
+    margin-bottom: 30px;
+}
+.pr-para{
+    margin:20px 12% ;
+}
+/* contact me */
+#contact{
+    padding-top: 4rem;
+    text-align: center;
+}
+.conm{
+    width: 2rem;
+}
+.contact-copy{
+    padding-top: 0.5rem;
+    color: #46b3e6;
+    font-size: 0.9rem;
+}
+conm:hover{
+    color:lightblue;
 }
