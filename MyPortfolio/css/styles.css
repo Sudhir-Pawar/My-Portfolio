@@ -32,7 +32,7 @@ body{
     position: absolute;
     transform: rotate(25deg);
     width: 63%;
-    left: 120px;
+    left: 100px;
     top: 0px;
     z-index: -1;
 }
@@ -169,4 +169,17 @@ body{
 }
 conm:hover{
     color:lightblue;
+}
+.vis{
+    visibility: hidden;
+
+}
+@media (max-width : 800px){
+    .about-img.col-lg-5{
+        visibility: hidden;
+        width: 0%;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    
 }
